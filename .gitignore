@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables file
+.env
+
+# Virtual environment
+venv/
+env/
+
+# Flask instance directory
+instance/
+
+# IDE specific
+.vscode/
+.idea/
+
+build/
+
+dist/ai_assist/_internal

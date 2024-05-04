@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="">
+
+  <title> Cypher </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css') }}" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="{{ url_for('static', filename='css/font-awesome.min.css') }}" rel="stylesheet" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="{{ url_for('static', filename='css/responsive.css') }}" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <div class="hero_area">
+
+    <div class="hero_bg_box">
+      <div class="bg_img_box">
+        <img src="{{ url_for('static', filename='images/hero-bg.png') }}" alt="">
+      </div>
+    </div>
+
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Cypher
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section id="home" class="slider_section ">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Cypher
+                    </h1>
+                    <p>
+                      Welcome to our revolutionary desktop voice assistant application! Say goodbye to tedious typing and hello to effortless productivity. Our intuitive software brings the power of voice commands to your fingertips, allowing you to effortlessly navigate the digital world. From conducting web searches in a flash to creating word documents with ease, our desktop voice assistant empowers you to accomplish tasks faster than ever before. Experience the future of productivity today!</p>
+                    
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="{{ url_for('static', filename='images/slider-img.png') }}" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+    </section>
+    <!-- end slider section -->
+  </div>
+
+
+  <!-- service section -->
+
+  <section id="features" class="service_section layout_padding">
+    <div class="service_container">
+      <div class="container ">
+        <div class="heading_container heading_center">
+          <h2>
+            Product <span>Features</span>
+          </h2>
+          <p>
+            Transform your desktop experience with our versatile voice assistant. Cypher provides the following features.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{{ url_for('static', filename='images/s1.png') }}" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Web Searches
+                </h5>
+                <p>
+                  Quickly find what you need online with seamless web searches powered by our voice assistant. Effortlessly locate and play YouTube videos without lifting a finger.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{{ url_for('static', filename='images/s2.png') }}" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  App Control
+                </h5>
+                <p>
+                  Seamlessly navigate inbuilt applications using intuitive voice commands. Streamline your workflow by effortlessly controlling apps with ease.
+                </p>
+              
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{{ url_for('static', filename='images/s3.png') }}" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Document Mastery
+                </h5>
+                <p>
+                  Effortlessly dictate, edit, and save Word documents using our voice assistant. Unlock hands-free productivity and streamline your writing process with ease.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-box">
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
+
+
+  <!-- about section -->
+
+  <section id="about" class="about_section layout_padding">
+    <div class="container  ">
+      <div class="heading_container heading_center">
+        <h2>
+          About <span>Us</span>
+        </h2>
+        <p>
+          Discover the passion driving our innovation—empowering users with cutting-edge technology to redefine productivity and convenience.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="{{ url_for('static', filename='images/about-img.png') }}" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <h3>
+              We Are Cypher
+            </h3>
+            <p>
+              At Cypher, our mission extends beyond mere innovation—it's about empowering every individual to harness the full potential of technology, regardless of ability. With a deep-seated commitment to accessibility, we're dedicated to crafting solutions that transcend barriers. Our passion to assist the blind and disabled drives us to create intuitive desktop voice assistant software, ensuring that everyone can navigate and utilize their computers with ease. Through relentless innovation and a dedication to inclusivity, we strive to redefine the digital landscape, one empowered user at a time. Join us on our journey to make technology accessible to all, unlocking endless possibilities and transforming lives along the way.
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- download section -->
+
+  <section id="contact" class="why_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Download <span>Cypher</span>
+        </h2>
+      </div>
+      <div class="why_container">
+        <div class="box">
+          
+          <div class="detail-box">
+            
+            <p>
+              Ready to revolutionize your desktop experience? Downloading our intuitive voice assistant is as simple as clicking a button. Our user-friendly .exe file ensures hassle-free installation, putting the power of voice commands at your fingertips in no time. Say goodbye to tedious tasks and hello to seamless productivity—download now and embark on a journey towards effortless computing!            </p>
+          </div>
+        </div>
+        <div class="box">
+          
+          <div class="detail-box">
+            <p>
+              1.Click the "Download Now" button on our website to download the .exe file for the voice assistant. <br>
+              2.Once the download is complete, navigate to the folder where the .exe file is saved. This is usually the "Downloads" folder on your computer. <br>
+              3.Double-click on the downloaded .exe file to start the voice assistant application.<br>
+              4.Once the .exe file is launched, the voice assistant will start automatically. You can begin using it immediately by speaking voice commands or interacting with the user interface.<br>
+              5.When you're done using the voice assistant, you can close the application by closing its window or using any provided exit options.<br>
+              5. Click on the "Run Cypher" button to launch the voice assistant. <br>
+              6. Say the command "User Manual" to access a manual with commands and usage instructions.<br>
+            </p>
+          </div>
+        </div>
+        <div class="box">
+         
+        </div>
+        
+      <div class="btn-box">
+        <a href="../dist/ai_assist/ai_assist.exe">
+          Download .exe file
+        </a>
+      </div>
+      <div class="btn-box">
+        <a href="/voice_assistant" target="_blank">
+          Run Cypher
+        </a>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- end download section -->
+
+  
+
+  <!-- info section -->
+
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_contact">
+            <h4>
+              Address
+            </h4>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Fr.Conceicao Rodrigues College of Engineering, Bandra
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  +91 1234567890
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  abc@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_detail">
+            <h4>
+              Info
+            </h4>
+            <p>
+              If you face any challenges or have inquiries, please feel free to contact us. Our dedicated support team is here to assist you promptly.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2 mx-auto info_col">
+          <div class="info_link_box">
+            <h4>
+              Links
+            </h4>
+            <div class="info_links">
+              <a class="active" href="#home">
+                Home
+              </a>
+              <a class="" href="#features">
+                Features
+              </a>
+              <a class="" href="#about">
+                About us
+              </a>
+              <a class="" href="#contact">
+                Product
+              </a>
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  
+
+  <!-- jQery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>
