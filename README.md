@@ -49,7 +49,7 @@ To get started with Cypher, follow these steps:
      ```bash
      python va_app.py
      ```
-   This will start the Flask server. Once Cypher is running, you can start giving voice commands to perform various tasks as listed in the User Manual.
+     This will start the Flask server. Once Cypher is running, you can access it through your web browser. You'll find options to either download or run Cypher.
 
 4. **Voice Gender Customization:**  
    - You can change the voice gender from male to female or vice versa at any time by selecting the appropriate radio button option in the interface.
